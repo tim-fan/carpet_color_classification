@@ -1,0 +1,5 @@
+[run]
+include =
+    carpet_color_classification/*
+omit =
+    carpet_color_classification/tests/*
