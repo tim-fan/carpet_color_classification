@@ -50,7 +50,10 @@ long_description = (
     read_content("README.rst") +
     read_content(os.path.join("docs/source", "CHANGELOG.rst")))
 
-requires = ['setuptools']
+requires = [
+    'setuptools',
+    'opencv-python',
+    ]
 
 extras_require = {
     'reST': ['Sphinx'],
@@ -72,5 +75,8 @@ setup(name='carpet-color-classification',
       install_requires=requires,
       include_package_data=True,
       extras_require=extras_require,
+      entry_points={
+          'console_scripts': ['image_recorder=carpet_color_classification.bin.image_recorder:main'],
+      },
       tests_require=['tox'],
       cmdclass={'test': Tox},)
