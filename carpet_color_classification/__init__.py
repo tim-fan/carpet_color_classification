@@ -48,7 +48,6 @@ class CarpetColorClassifier():
         if score < self.unclassified_score_threshold:
             class_index = 4
         
-        print(self.class_index_to_class_name)
         class_name = self.class_index_to_class_name[class_index]
         return (class_index, class_name)
 
