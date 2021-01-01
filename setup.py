@@ -47,12 +47,16 @@ classifiers = [
 
 
 long_description = (
-    read_content("README.rst") +
+    read_content("README.md") +
     read_content(os.path.join("docs/source", "CHANGELOG.rst")))
 
 requires = [
     'setuptools',
+    'docopt',
     'opencv-python',
+    'numpy',
+    'pandas',
+    'scikit-learn',
     ]
 
 extras_require = {
