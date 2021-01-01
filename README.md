@@ -10,6 +10,7 @@ localisation system](https://github.com/tim-fan/carpet_localisation).
 **Figure:** Robot in target localisation environment, showing the four carpet colors to be classified.
 
 Classification is performed by taking average HSV values for each input image, and using a gaussian mixture model (GMM) to distinguish the four color clusters in HSV space.
+
 ![color clusters](notebooks/images/hsv_clusters.png)
 
 **Figure:** GMM clustering results distinguishing the four color clusters in HSV space.
