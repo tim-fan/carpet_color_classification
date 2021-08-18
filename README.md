@@ -5,6 +5,8 @@ Python package for distinguishing between the four colors of carpet in my office
 This is intended for use as a component in a [carpet-based robot
 localisation system](https://github.com/tim-fan/carpet_localisation).
 
+For an overview of the broader project, see [the wiki](https://github.com/tim-fan/carpet_localisation/wiki/Carpet-Localisation).
+
 ![target environment](notebooks/images/roomba_on_carpet.jpg)
 
 **Figure:** Robot in target localisation environment, showing the four carpet colors to be classified.
